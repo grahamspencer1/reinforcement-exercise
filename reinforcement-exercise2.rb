@@ -35,7 +35,7 @@ elsif question1 > question2 && question3
   puts "You should watch #{doc}."
 elsif question2 > question1 && question3
   puts "You should watch #{drama}."
-elsif question3 > question1 && question3
+elsif question3 > question1 && question2
   puts "You should watch #{comedy}."
 else
   puts "Read a book then!"
