@@ -31,6 +31,12 @@ elsif question1 <= 3 && question2 <= 3 && question3 >= 4
   puts "You should watch #{comedy}."
 elsif question1 >= 4 && question2 >= 4 && question3 >= 4
   puts "You should watch #{bonus}."
+elsif question1 > question2 && question3
+  puts "You should watch #{doc}."
+elsif question2 > question1 && question3
+  puts "You should watch #{drama}."
+elsif question3 > question1 && question3
+  puts "You should watch #{comedy}."
 else
   puts "Read a book then!"
 end
